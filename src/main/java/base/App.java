@@ -37,7 +37,7 @@ public class App {
     }
 
     public int prompt(String prompt){
-        System.out.printf("How many %s?\n", prompt);
+        System.out.printf("How many %s? ", prompt);
         return in.nextInt();
     }
 
